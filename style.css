@@ -44,3 +44,19 @@ body {
     line-height: 1.6;
 
 }
+/* --- Header and Footer Styles --- */
+
+header {
+    text-align: center;
+    padding: 20px 0; /* Adds space above and below the header content */
+    background-color: #dcd6f7; /* A slightly different shade of purple */
+    border-bottom: 2px solid #b46e99; /* Matches your container's border */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px; /* Adds space above the footer */
+    font-size: 0.9em; /* Makes footer text a little smaller */
+    color: #4a4a4a; /* A dark gray for readability */
+}
