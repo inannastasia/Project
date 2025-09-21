@@ -50,24 +50,22 @@ header h1 {
 
 header {
     text-align: center;
-    padding: 20px 0; /* Adds space above and below the header content */
-    background-color: #dcd6f7; /* A slightly different shade of purple */
-    border-bottom: 2px solid #b46e99; /* Matches your container's border */
+    padding: 20px 0;
+    background-color: #dcd6f7;
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
-    margin-top: 40px; /* Adds space above the footer */
-    font-size: 0.9em; /* Makes footer text a little smaller */
-    color: #4a4a4a; /* A dark gray for readability */
+    margin-top: 40px; 
+    font-size: 0.9em;
 }
-.content-container ifram {
+.content-container iframe {
     display: block;
-    margin: 20px auto; /* Adds spacing and centers the map */
-    max-width: 100%;   /* Ensures map shrinks on smaller screens */
-    border-radius: 10px; /* Optional: matches the rounded corners of your images */
+    margin: 20px auto;
+    max-width: 100%; 
 }
+
 
 
 
