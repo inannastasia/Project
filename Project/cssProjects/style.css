@@ -1,0 +1,52 @@
+header,
+nav,
+footer {
+    background-color: pink;
+    /* pink background ^^ */
+    color: white
+    text-align: center;
+    width: 100%
+}
+body {
+    background-color: lilac;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    /* sets up numerous fonts just in case other fonts don't work for whatever devices are used to show~
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: 1px;
+    border-color: olive green;
+    padding: 20px;
+}
+/* Project 2: Photo Gallery */
+.gallery [
+    display: flex; /* aligns images in a horizontal line*/
+    flex-wrap: wrap; /* moves images to next line if not enough space*/
+    gap: 10px; /*adds space between each image*/
+]
+
+.gallery img {
+width: 100px;
+height: 120px;
+object-fit: cover; /*ensures large image will fit without distortion */
+border-radius: 6px;
+transition: all 0.3;
+}
+
+/*hover effect 1: scale with fade */
+.hover-one;hover {
+    transform: rotate(-5deg) scale(1.05); /*rotates the images by 5 degrees and enlarges slightly */
+    box-shadow: 0 8px 15px gray; 
+    opacity: 1; /*keeps full opacity through transition*/
+}
+.hover-two:hover {
+    filter: greyscale(100%);
+    transition : filter 0.4, transform 0.3;
+    transform: scale(1.00); /*slightly enlarges image*/
+}
+.hover-three:hover {
+    transforms: scale(1.65): /*slightly enlarges image on hover*/
+    opacity: 0.5; /*makes the img slightly trnasparent*/
+}
